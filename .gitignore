@@ -16,3 +16,5 @@ crash.*.log
 *.tfplan
 *override.tf
 *override.tf.json
+
+.env_encoded
