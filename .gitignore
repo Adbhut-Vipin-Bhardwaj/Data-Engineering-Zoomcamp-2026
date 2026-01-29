@@ -17,4 +17,5 @@ crash.*.log
 *override.tf
 *override.tf.json
 
+.env
 .env_encoded
