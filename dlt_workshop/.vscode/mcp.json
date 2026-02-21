@@ -1,5 +1,5 @@
 {
-    "mcpServers": {
+    "servers": {
         "dlt": {
             "command": "uv",
             "args": [
