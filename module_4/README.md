@@ -1,3 +1,3 @@
-The dlt project created when doing the dbt Fundamentals course is here: https://gitlab.com/adbhut-datatalksclub-labs/data-engineering-zoomcamp-2026/dbt-jaffle-shop
+The dlt project created when doing the [dbt Fundamentals course](https://learn.getdbt.com/courses/dbt-fundamentals) is here: https://gitlab.com/adbhut-datatalksclub-labs/data-engineering-zoomcamp-2026/dbt-jaffle-shop
 
 I have added the homework solution at: https://gitlab.com/adbhut-datatalksclub-labs/data-engineering-zoomcamp-2026/module-4-hw
