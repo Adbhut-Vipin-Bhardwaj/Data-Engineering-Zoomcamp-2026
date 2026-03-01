@@ -45,9 +45,20 @@ resource "google_bigquery_dataset" "module_1_dataset" {
   project    = var.project
   location   = var.location
 }
+resource "google_bigquery_dataset" "ingestion_dataset" {
+  dataset_id = "ingestion"
+  project    = var.project
+  location   = var.location
+}
 
-resource "google_bigquery_dataset" "module_5_dataset" {
-  dataset_id = var.bq_dataset_name_m5
+resource "google_bigquery_dataset" "staging_dataset" {
+  dataset_id = "staging"
+  project    = var.project
+  location   = var.location
+}
+
+resource "google_bigquery_dataset" "reports_dataset" {
+  dataset_id = "reports"
   project    = var.project
   location   = var.location
 }

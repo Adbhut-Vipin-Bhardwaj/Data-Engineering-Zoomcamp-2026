@@ -32,8 +32,3 @@ variable "gcs_storage_class" {
   description = "Bucket Storage Class"
   default     = "STANDARD"
 }
-
-variable "bq_dataset_name_m5" {
-  description = "BigQuery Dataset for Module 5 Bruin"
-  default     = "module_5_bruin_dataset"
-}
