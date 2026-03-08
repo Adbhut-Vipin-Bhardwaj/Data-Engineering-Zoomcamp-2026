@@ -19,3 +19,6 @@ crash.*.log
 
 .env
 .env_encoded
+
+module_6/*.csv
+module_6/zones
