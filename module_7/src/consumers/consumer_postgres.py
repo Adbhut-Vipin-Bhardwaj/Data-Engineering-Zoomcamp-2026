@@ -1,6 +1,10 @@
+import sys
 import psycopg2
+from pathlib import Path
 from datetime import datetime
 from kafka import KafkaConsumer
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from models import Ride, ride_deserializer
 

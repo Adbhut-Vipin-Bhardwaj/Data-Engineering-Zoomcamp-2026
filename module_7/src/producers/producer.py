@@ -1,7 +1,11 @@
+import sys
 import json
 import time
 import pandas as pd
+from pathlib import Path
 from kafka import KafkaProducer
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from models import Ride, ride_from_row, ride_serializer
 
